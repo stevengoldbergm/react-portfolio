@@ -24,3 +24,4 @@ yarn-error.log*
 
 README copy.md
 TODO.txt
+package-lock.json
