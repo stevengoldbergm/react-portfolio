@@ -1,9 +1,5 @@
 import React from 'react';
 
-const divstyle = {
-    maxWidth: "200px",
-}
-
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
@@ -11,8 +7,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     <>
     <header class="jumbotron jumbotron-fluid">
         <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center align-items-sm-end py-1 px-3">
-            <img src={require("../Assets/imgs/Bauldren.png")} class="rounded-circle bg-info img-thumbnail" width="25%" height="auto" style={divstyle} alt="Pixel Avatar"></img>
-            <h1 class="display-4">stevengoldbergm</h1>
+            <h1 class="display-4 pb-sm-4">stevengoldbergm</h1>
         </div>
 
     </header>
