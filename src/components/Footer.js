@@ -5,7 +5,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
   <>
-    <footer class="py-3 my-4 fixed-bottom">
+    <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item"><a href="https://github.com/" class="nav-link px-2 text-muted">Github</a></li>
         <li class="nav-item"><a href="https://LinkedIn.com/" class="nav-link px-2 text-muted">LinkedIn</a></li>
