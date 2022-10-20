@@ -18,7 +18,7 @@ export default function Contact() {
             </div>
           </div>
           {/* email entry */}
-          <div className='mb-3'>
+          <div className='mb-3 col-6'>
             <label htmlFor="inputEmail" className="form-label">Email address:</label>
             <input type="email" className="form-control" placeholder="Email@yourmail.com" id="inputEmail" aria-describedby="emailHelp"/>
             <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
