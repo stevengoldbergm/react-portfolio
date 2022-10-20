@@ -12,50 +12,52 @@ function NavTabs({ currentPage, handlePageChange }) {
 
     </header>
 
-    <ul className="nav nav-tabs d-flex justify-content-around justify-content-sm-end bg-primary bg-gradient">
-      <li className="nav-item">
-        <a
-          href="#AboutMe"
-          onClick={() => handlePageChange('AboutMe')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "AboutMe"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === 'AboutMe' ? 'nav-link active ' : 'nav-link text-white'}
-        >
-          About Me
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#Portfolio"
-          onClick={() => handlePageChange('Portfolio')}
-          // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link text-white'}
-        >
-          Portfolio
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#Contact"
-          onClick={() => handlePageChange('Contact')}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link text-white'}
-        >
-          Contact
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#Resume"
-          onClick={() => handlePageChange('Resume')}
-          // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link text-white'}
-        >
-          Resume
-        </a>
-      </li>
-    </ul>
-  </div>
+      <ul className="ml-auto rounded-top nav nav-tabs d-flex justify-content-around justify-content-sm-end bg-primary bg-gradient">
+        <li className="nav-item col-6 col-sm-3 text-center">
+          <a
+            href="#AboutMe"
+            onClick={() => handlePageChange('AboutMe')}
+            // This is a conditional (ternary) operator that checks to see if the current page is "AboutMe"
+            // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+            className={currentPage === 'AboutMe' ? 'nav-link active ' : 'nav-link text-white'}
+          >
+            About
+          </a>
+        </li>
+        <li className="nav-item col-6 col-sm-3 text-center">
+          <a
+            href="#Portfolio"
+            onClick={() => handlePageChange('Portfolio')}
+            // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link text-white'}
+          >
+            Portfolio
+          </a>
+        </li>
+        <li className="nav-item col-6 col-sm-3 text-center">
+          <a
+            href="#Contact"
+            onClick={() => handlePageChange('Contact')}
+            // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link text-white'}
+          >
+            Contact
+          </a>
+        </li>
+        <li className="nav-item col-6 col-sm-3 text-center">
+          <a
+            href="#Resume"
+            onClick={() => handlePageChange('Resume')}
+            // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link text-white'}
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
+    </div>
+    
+
   );
 }
 
