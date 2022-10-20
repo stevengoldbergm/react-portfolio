@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.44daa4ac.css",
-    "main.js": "/static/js/main.c2144525.js",
-    "static/media/Weather.png": "/static/media/Weather.c98702d9860276493ce0.png",
-    "static/media/scheduler.png": "/static/media/scheduler.593e8f9c161b80ebd7dc.png",
-    "static/media/techBlog.png": "/static/media/techBlog.437513c4e079c796b1b9.png",
-    "static/media/MovieMate.png": "/static/media/MovieMate.807cd34e77a48de6a475.png",
-    "static/media/JATE.png": "/static/media/JATE.8fd9ed0d5602ece2bef5.png",
-    "static/media/noteTaker.png": "/static/media/noteTaker.0157f93058f6d9efd6d2.png",
-    "index.html": "/index.html",
-    "main.44daa4ac.css.map": "/static/css/main.44daa4ac.css.map",
-    "main.c2144525.js.map": "/static/js/main.c2144525.js.map"
+    "main.css": "/react-portfolio/static/css/main.44daa4ac.css",
+    "main.js": "/react-portfolio/static/js/main.049546b4.js",
+    "static/media/Weather.png": "/react-portfolio/static/media/Weather.c98702d9860276493ce0.png",
+    "static/media/scheduler.png": "/react-portfolio/static/media/scheduler.593e8f9c161b80ebd7dc.png",
+    "static/media/techBlog.png": "/react-portfolio/static/media/techBlog.437513c4e079c796b1b9.png",
+    "static/media/MovieMate.png": "/react-portfolio/static/media/MovieMate.807cd34e77a48de6a475.png",
+    "static/media/JATE.png": "/react-portfolio/static/media/JATE.8fd9ed0d5602ece2bef5.png",
+    "static/media/noteTaker.png": "/react-portfolio/static/media/noteTaker.0157f93058f6d9efd6d2.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.44daa4ac.css.map": "/react-portfolio/static/css/main.44daa4ac.css.map",
+    "main.049546b4.js.map": "/react-portfolio/static/js/main.049546b4.js.map"
   },
   "entrypoints": [
     "static/css/main.44daa4ac.css",
-    "static/js/main.c2144525.js"
+    "static/js/main.049546b4.js"
   ]
 }
