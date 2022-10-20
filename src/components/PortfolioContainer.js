@@ -10,6 +10,7 @@ import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import projects from '../projects';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -20,7 +21,7 @@ export default function PortfolioContainer() {
       return <AboutMe />;
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio />;
+      return <Portfolio projects={projects} />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
