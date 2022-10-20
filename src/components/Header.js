@@ -5,9 +5,9 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
   <div className='bg-dark'>
-    <header class="jumbotron jumbotron-fluid bg-dark bg-gradient">
-        <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center align-items-sm-end py-1 px-3">
-            <h1 class="display-4 pb-sm-4 text-white"><strong>stevengoldbergm</strong></h1>
+    <header className="jumbotron jumbotron-fluid bg-dark bg-gradient">
+        <div className="d-flex flex-column flex-sm-row justify-content-between align-items-center align-items-sm-end py-1 px-3">
+            <h1 className="display-4 pb-sm-4 text-white"><strong>stevengoldbergm</strong></h1>
         </div>
 
     </header>

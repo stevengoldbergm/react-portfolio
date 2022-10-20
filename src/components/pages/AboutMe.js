@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div class="container d-flex flex-column flex-sm-row col-12 col-sm-10 p-3 justify-content-between align-items-center align-items-sm-start">
-      <img src={require("../../Assets/imgs/Bauldren.png")} class="rounded-circle bg-dark img-thumbnail col-4" width="25%" height="auto" style={{ maxWidth: "200px" }} alt="Pixel Avatar"></img>
-      <p class="col-sm-7 pt-1">
+    <div className="container d-flex flex-column flex-sm-row col-12 col-sm-10 p-3 justify-content-between align-items-center align-items-sm-start">
+      <img src={require("../../Assets/imgs/Bauldren.png")} className="rounded-circle bg-dark img-thumbnail col-4" width="25%" height="auto" style={{ maxWidth: "200px" }} alt="Pixel Avatar"></img>
+      <p className="col-sm-7 pt-1">
         Hi there! 
         <br></br>
         <br></br> 
