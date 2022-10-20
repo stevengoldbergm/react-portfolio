@@ -67,7 +67,7 @@ function Form() {
 
   return (
     <div className='container'>
-    <h1>Contact Me!</h1>
+    <h1 className='mt-2'>Contact Me!</h1>
     <form>
       <div className=" container d-flex flex-column mb-3">
         {/* First and Last name fields */}
@@ -110,7 +110,7 @@ function Form() {
           </div>
         </div>
         {/* email entry */}
-        <div className='mb-3 col-6'>
+        <div className='mb-3 col-12 col-sm-6'>
           <label 
             htmlFor="inputEmail" 
             className="form-label">
