@@ -1,0 +1,17 @@
+/* custom.scss */ 
+// Import the functions
+@import "../../../node_modules/bootstrap/scss/functions";
+
+// Include any default variable overrides here
+    $primary:       rgb(125, 65, 174);
+    $secondary:     rgb(69, 43, 98);
+    $success:       rgb(33, 138, 99);
+    $info:          rgb(95, 190, 190);
+    $warning:       rgb(235, 211, 59);
+    $danger:        rgb(188, 54, 54);
+    $light:         rgb(200, 200, 200);
+    $dark:          rgb(62, 19, 66);
+
+
+/* import the necessary Bootstrap files */
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
