@@ -16,3 +16,7 @@
     object-fit: cover;
     object-position: top;
 }
+
+div {
+  white-space: pre-wrap;
+}
