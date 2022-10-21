@@ -1,6 +1,6 @@
 
   # React Portfolio
-
+![About Me Page](src/assets/imgs/reactPortfolio01.png)
   
 
   ## Table of Contents
@@ -11,11 +11,17 @@
   ## Description
 
   A professional portfolio made with React!
+
+  The design is responsive, fast, and oh-so-stable
+
+  ![Mobile view of Contact page](src/assets/imgs/reactPortfolio02.png)
+
+  
     
   ## Usage
   Check out the launched portfolio [HERE!](https://stevengoldbergm.github.io/react-portfolio/)
 
-  Click the navigation tabs to move to the different pages of the portfolio. Each page is loaded automatically without refreshing the site.
+  Simply use the navigation tabs to move to the different pages of the portfolio. Because of React states, each page loads without refreshing the site.
 
   ## Questions
 
