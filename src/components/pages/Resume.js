@@ -1,18 +1,5 @@
 import React from 'react';
 
-// const downloadResume = () => {
-//   console.log('Write some code')
-
-//   const resume = require('../../assets/rezoom.txt')
-
-//   const file = new Blob(resume)
-
-//   const a = document.createElement("a")
-//   a.href = URL.createObjectURL(file)
-//   a.download = "rezoom.txt"
-//   a.click()
-// }
-
 export default function Resume() {
   return (
     <div className='container p-2 d-flex flex-column justify-content-center align-items-center'>
