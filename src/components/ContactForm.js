@@ -31,18 +31,22 @@ function Form() {
     } else {
       setComments(inputValue);
     }
+    handleFormBlur();
   };
 
   const handleFormBlur = (e) => {
     // Whenever the user clicks off of an input, check to see what else they need to do!
     if (!firstName) {
-        setErrorMessage('Please enter your first name')
+        setErrorMessage('Please enter your first name');
+        return;
     } else if (!lastName) {
-        setErrorMessage('Please enter your last name')
+        setErrorMessage('Please enter your last name');
     } else if (!validateEmail(email)) {
         setErrorMessage('That email is invalid');
+        return;
     } else if (!comments) {
-        setErrorMessage('Please add a comment')
+        setErrorMessage('Please add a comment');
+        return;
     } else {
         setErrorMessage('');
     } 
@@ -56,8 +60,13 @@ function Form() {
     if (!firstName || !lastName || !email || !comments) {
       handleFormBlur()
       return;
-    } 
+    };
     
+    // If there's an error message, don't submit!
+    if (errorMessage) {
+      return;
+    };
+
     // Clear inputs! In the future, pass form variables to somewhere else (email, backend data, etc)
     setFirstName('');
     setLastName('');
