@@ -1,6 +1,6 @@
 
   # React Portfolio
-![About Me Page](src/assets/imgs/reactPortfolio01.png)
+![About Me Page](src/Assets/imgs/reactPortfolio01.png)
   
 
   ## Table of Contents
@@ -14,7 +14,7 @@
 
   The design is responsive, fast, and oh-so-stable
 
-  ![Mobile view of Contact page](src/assets/imgs/reactPortfolio02.png)
+  ![Mobile view of Contact page](src/Assets/imgs/reactPortfolio02.png)
 
   
     
