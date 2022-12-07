@@ -7,12 +7,12 @@ function NavTabs({ currentPage, handlePageChange }) {
   <div className='bg-dark'>
     <header className="jumbotron jumbotron-fluid bg-dark bg-gradient">
         <div className="d-flex flex-column flex-sm-row justify-content-between align-items-center align-items-sm-end py-1 px-3">
-            <h1 className="display-4 pb-sm-4 text-white"><strong>stevengoldbergm</strong></h1>
+            <h1 className="display-4 pb-sm-4 text-white"><strong>Steven Goldberg</strong></h1>
         </div>
 
     </header>
 
-      <ul className="ml-auto rounded-top nav nav-tabs d-flex justify-content-around justify-content-sm-end bg-primary bg-gradient">
+      <ul className="mb-3 rounded-top nav nav-tabs d-flex justify-content-around justify-content-sm-end bg-primary bg-gradient">
         <li className="nav-item col-6 col-sm-3 text-center">
           <a
             href="#AboutMe"

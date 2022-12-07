@@ -67,6 +67,10 @@ function Form() {
       return;
     };
 
+    // Just send an e-mail for now
+
+    window.open(`mailto:stevengoldbergm@gmail.com?subject='Contact Request from ${firstName} ${lastName}'&body=${comments}`)
+
     // Clear inputs! In the future, pass form variables to somewhere else (email, backend data, etc)
     setFirstName('');
     setLastName('');
@@ -75,9 +79,9 @@ function Form() {
   };
 
   return (
-    <div className='container'>
-    <h1 className='mt-2'>Contact Me!</h1>
-    <form>
+    <div className='container d-flex flex-column justify-content-center align-items-center'>
+    <h1 className='mt-2 mb-4'>Contact Me!</h1>
+    <form className='col-10 col-md-8'>
       <div className=" container d-flex flex-column mb-3">
         {/* First and Last name fields */}
         <div className="row g-3 mb-3">
@@ -168,7 +172,11 @@ function Form() {
                 </div>
             ) 
         }
-        <button typeof='submit' className='btn btn-primary col-12 col-sm-6 align-self-center' onClick={handleFormSubmit}>
+        <button 
+          typeof='submit' 
+          className='btn btn-primary col-12 col-sm-6 align-self-center' 
+          onClick={handleFormSubmit}
+        >
             Submit
         </button>
       </div>

@@ -1,12 +1,21 @@
 const projects = [
     {
+        img: require("./assets/imgs/MovieMate3.0.png"),
+        title: "MovieMate 3.0",
+        text: "Search movies, get details. \n\nMovieMate 3.0 takes all of the functionality of MovieMate 2.0, and adds friends and watch parties into the mix! The entire site has been rebuilt using a MERN stack, enhancing both back-end and front-end functionality.",
+        tech: "MongoDB | Express.js | React | Node.js | Axios | Bulma | GraphQL | Apollo | SASS | JSON WebToken | BCrypt | 3rd Party APIs | Heroku ",
+        liveApp: "https://movie-mate-3.herokuapp.com/",
+        gitRepo: "https://github.com/stevengoldbergm/movie-mate-3.0",
+        id: 1
+    },
+    {
         img: require("./assets/imgs/MovieMate.png"),
         title: "MovieMate 2.0",
         text: "Search movies, get details. \n\nMovieMate utilizes the OMDb and Youtube APIs to provide users with movie information and relevant movie trailers. It also supports user accounts and user reviews using mySQL.",
         tech: "Bulma | mySQL | RESTful API | 3rd Party APIs | Axios | Node.js | Express.js | Handlebars.js",
         liveApp: "https://movie-mate-2.herokuapp.com/",
         gitRepo: "https://github.com/stevengoldbergm/movie-mate-2.0",
-        id: 1
+        id: 2
     },
     {
         img: require("./assets/imgs/JATE.png"),
@@ -15,25 +24,25 @@ const projects = [
         tech: "Codemirror | Mongoose | PWA | Service-workers | Idb | Express.js",
         liveApp: "https://text-editor-stevengoldbergm.herokuapp.com/",
         gitRepo: "https://github.com/stevengoldbergm/text-editor",
-        id: 2
+        id: 3
     },
     {
         img: require("./assets/imgs/techBlog.png"),
         title: "Tech Blog!",
         text: "Sign up! Add Thoughts! \n\nThis tech blog allows users to make an account, post articles to a shared message board, and make comments on each post. You can also edit and delete your posts from the dashboard!",
-        tech: "Bootstrap | ???",
+        tech: "MySQL | Sequelize | .ENV | Express | Express-Handlebars | Express-Session | BCrypt | Bootstrap",
         liveApp: "https://tech-blog-stevengoldbergm.herokuapp.com/",
         gitRepo: "https://github.com/stevengoldbergm/tech-blog",
-        id: 3
+        id: 4
     },
     {
         img: require("./assets/imgs/noteTaker.png"),
         title: "Note Taker",
         text: "Make and delete notes with ease! \n\nNote Taker is a checklist app. Add notes by entering a note title and text, then delete the note by clicking the trash-can when you're finished!",
-        tech: "??? | ???",
+        tech: "JavaScript | Express.js",
         liveApp: "https://note-taker-sgm86.herokuapp.com/notes",
         gitRepo: "https://github.com/stevengoldbergm/Note-Taker",
-        id: 4
+        id: 5
     },
     {
         img: require("./assets/imgs/Weather.png"),
@@ -42,7 +51,7 @@ const projects = [
         tech: "Bulma | OpenWeather API | Fetch Api",
         liveApp: "https://stevengoldbergm.github.io/weather-dashboard/",
         gitRepo: "https://github.com/stevengoldbergm/weather-dashboard",
-        id: 5
+        id: 6
     },
     {
         img: require("./assets/imgs/scheduler.png"),
@@ -51,7 +60,7 @@ const projects = [
         tech: "Local Storage | JS setInterval",
         liveApp: "https://stevengoldbergm.github.io/daily-planner/",
         gitRepo: "https://github.com/stevengoldbergm/daily-planner",
-        id: 6
+        id: 7
     },
 ];
 export default projects;
