@@ -22,12 +22,12 @@ export default function Resume() {
         </ul>
       </div>
 
-      <a href={require("../../assets/Steven-Goldberg-Resume_2022.docx")} download="Steven-Goldberg-Resume_2022.docx" className="col-md-5 d-flex justify-content-center align-items-center">
+      <a href={require("../../assets/StevenGoldbergResume_2022.pdf")} download="StevenGoldbergResume_2022.pdf" className="col-md-5 d-flex justify-content-center align-items-center">
       <button 
         className="btn btn-primary " 
         // value="download" 
         // download="myfile" 
-        href={require("../../assets/Steven-Goldberg-Resume_2022.docx")}>
+        href={require("../../assets/StevenGoldbergResume_2022.pdf")}>
           Download a copy of my current resumé
       </button>
       </a>
