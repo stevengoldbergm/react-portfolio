@@ -2,10 +2,12 @@ import React from 'react';
 
 export default function Portfolio({projects}) {
   return (
-      <main className="container-fluid d-flex flex-wrap flex-column flex-md-row justify-content-center justify-content-md-around align-items-center">
+    <div className='my-2'>
+      <main className="container-fluid d-flex flex-wrap flex-column flex-md-row justify-content-center justify-content-md-around align-items-center align-items-md-start">
         {projects.map((project) => (
           <div className="card col-10 col-md-5 mt-4 mx-1" key={project.id}> 
             <img className="card-img-top border" src={project.img} alt="App Screenshot"></img>
+            
             <div className="card-body d-flex flex-column justify-content-between">
               <h5 className="card-title">{project.title}</h5>
               <p className="card-text">{project.text}</p>
@@ -18,6 +20,7 @@ export default function Portfolio({projects}) {
           </div>
         ))}
       </main>
+    </div>
 
   );
 }
