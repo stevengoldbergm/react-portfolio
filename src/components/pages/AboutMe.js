@@ -24,9 +24,11 @@ export default function About() {
         <br/>
 
         <div className='mt-3 col-10 align-self-center d-flex justify-content-center'>
-          <button class="btn btn-primary" href="/react-portfolio/static/media/StevenGoldbergResume_2023.7f5db7356c026c073ef4.pdf">
-          Check out my resumé
-        </button>
+          <a href={require("../../assets/StevenGoldbergResume_2023.pdf")} download="StevenGoldbergResume_2023.pdf" className="col-md-5 d-flex justify-content-center align-items-center">
+            <button class="btn btn-primary" href="/react-portfolio/static/media/StevenGoldbergResume_2023.7f5db7356c026c073ef4.pdf">
+            Check out my resumé
+            </button>
+          </a>
         </div>
         
 
