@@ -83,10 +83,16 @@ function Form() {
     
     <form className='col-10 col-md-8'>
       <div className=" container d-flex flex-column mb-3">
-      {/* Add an e-mail button for reasons */}
+      {/* Add an e-mail button for reasons ✉  */}
       <h6 className='my-4 ml-1 align-self-start'>
-      ✉ <a href='mailto:stevengoldbergm@gmail.com'>stevengoldbergm@gmail.com</a>
+        Email me directly ✉
+        <br/> 
+        <a href='mailto:stevengoldbergm@gmail.com'>
+          stevengoldbergm@gmail
+        </a>
       </h6>
+
+      <br/>
         {/* First and Last name fields */}
         <div className="row g-3 mb-3">
           <div className="col-12 col-sm">
@@ -145,7 +151,7 @@ function Form() {
             id="inputEmail" 
             aria-describedby="emailHelp"/>
           <div id="emailHelp" className="form-text">
-            I'll never share your email with anyone else.
+            Your E-mail address is not retained
           </div>
         </div>
 
