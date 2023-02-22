@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.3a5c42db.css",
-    "main.js": "/react-portfolio/static/js/main.0a53e685.js",
+    "main.css": "/react-portfolio/static/css/main.7c3d4359.css",
+    "main.js": "/react-portfolio/static/js/main.5196c241.js",
     "static/media/stock_purple_painting.jpeg": "/react-portfolio/static/media/stock_purple_painting.7f1edd2254b386f0070b.jpeg",
+    "static/media/Headshot_Basic-4.png": "/react-portfolio/static/media/Headshot_Basic-4.1b6c749a4d2f3f040e6a.png",
     "static/media/MovieMate3.0.png": "/react-portfolio/static/media/MovieMate3.0.8382f8c3587ee423bccc.png",
     "static/media/Weather.png": "/react-portfolio/static/media/Weather.c98702d9860276493ce0.png",
-    "static/media/Headshot_Basic.jpg": "/react-portfolio/static/media/Headshot_Basic.e90381a5213b7ef27b75.jpg",
     "static/media/StevenGoldbergResume_2023.pdf": "/react-portfolio/static/media/StevenGoldbergResume_2023.49f6d4b9adcf033a9e76.pdf",
     "static/media/scheduler.png": "/react-portfolio/static/media/scheduler.593e8f9c161b80ebd7dc.png",
     "static/media/techBlog.png": "/react-portfolio/static/media/techBlog.437513c4e079c796b1b9.png",
@@ -13,11 +13,11 @@
     "static/media/JATE.png": "/react-portfolio/static/media/JATE.8fd9ed0d5602ece2bef5.png",
     "static/media/noteTaker.png": "/react-portfolio/static/media/noteTaker.0157f93058f6d9efd6d2.png",
     "index.html": "/react-portfolio/index.html",
-    "main.3a5c42db.css.map": "/react-portfolio/static/css/main.3a5c42db.css.map",
-    "main.0a53e685.js.map": "/react-portfolio/static/js/main.0a53e685.js.map"
+    "main.7c3d4359.css.map": "/react-portfolio/static/css/main.7c3d4359.css.map",
+    "main.5196c241.js.map": "/react-portfolio/static/js/main.5196c241.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a5c42db.css",
-    "static/js/main.0a53e685.js"
+    "static/css/main.7c3d4359.css",
+    "static/js/main.5196c241.js"
   ]
 }
