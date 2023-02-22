@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.7c3d4359.css",
-    "main.js": "/react-portfolio/static/js/main.8725939a.js",
+    "main.js": "/react-portfolio/static/js/main.ee15285d.js",
     "static/media/stock_purple_painting.jpeg": "/react-portfolio/static/media/stock_purple_painting.7f1edd2254b386f0070b.jpeg",
     "static/media/Headshot_Basic-4.png": "/react-portfolio/static/media/Headshot_Basic-4.1b6c749a4d2f3f040e6a.png",
     "static/media/MovieMate3.0.png": "/react-portfolio/static/media/MovieMate3.0.8382f8c3587ee423bccc.png",
     "static/media/Weather.png": "/react-portfolio/static/media/Weather.c98702d9860276493ce0.png",
-    "static/media/StevenGoldbergResume_2023.pdf": "/react-portfolio/static/media/StevenGoldbergResume_2023.cf12d3690c6ae1759f68.pdf",
+    "static/media/StevenGoldbergResume_2023.pdf": "/react-portfolio/static/media/StevenGoldbergResume_2023.89d0aba579e7ee7ccbbb.pdf",
     "static/media/scheduler.png": "/react-portfolio/static/media/scheduler.593e8f9c161b80ebd7dc.png",
     "static/media/techBlog.png": "/react-portfolio/static/media/techBlog.437513c4e079c796b1b9.png",
     "static/media/MovieMate.png": "/react-portfolio/static/media/MovieMate.807cd34e77a48de6a475.png",
@@ -14,10 +14,10 @@
     "static/media/noteTaker.png": "/react-portfolio/static/media/noteTaker.0157f93058f6d9efd6d2.png",
     "index.html": "/react-portfolio/index.html",
     "main.7c3d4359.css.map": "/react-portfolio/static/css/main.7c3d4359.css.map",
-    "main.8725939a.js.map": "/react-portfolio/static/js/main.8725939a.js.map"
+    "main.ee15285d.js.map": "/react-portfolio/static/js/main.ee15285d.js.map"
   },
   "entrypoints": [
     "static/css/main.7c3d4359.css",
-    "static/js/main.8725939a.js"
+    "static/js/main.ee15285d.js"
   ]
 }
