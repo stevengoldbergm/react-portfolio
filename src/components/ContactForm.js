@@ -111,7 +111,7 @@ function Form() {
             Submit your details or e-mail me directly at:
             <br />
             <a className="mt-1" href="mailto:stevengoldbergm@gmail.com">
-            ✉ stevengoldbergm@gmail ✉
+              ✉ stevengoldbergm@gmail ✉
             </a>
           </h6>
 
@@ -171,7 +171,7 @@ function Form() {
               aria-describedby="emailHelp"
             />
             <div id="emailHelp" className="form-text">
-              Your E-mail address is not retained
+              I promise not to misuse your information
             </div>
           </div>
 
