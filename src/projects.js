@@ -40,7 +40,7 @@ const projects = [
         title: "Note Taker",
         text: "Make and delete notes with ease! \n\nNote Taker is a checklist app. Add notes by entering a note title and text, then delete the note by clicking the trash-can when you're finished!",
         tech: "JavaScript | Express.js",
-        liveApp: "https://note-taker-sgm86.herokuapp.com/notes",
+        liveApp: "https://note-taker-sgm86.herokuapp.com/",
         gitRepo: "https://github.com/stevengoldbergm/Note-Taker",
         id: 5
     },
