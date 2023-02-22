@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 // Import Components
 import Header from './Header';
 import Footer from './Footer';
-// import footer here
 
 // Import pages
 import AboutMe from './pages/AboutMe';
