@@ -3,7 +3,7 @@ export default function Portfolio({projects}) {
     <div className='my-2'>
       <main className="container-fluid d-flex flex-wrap flex-column flex-md-row  space-evenly align-items-center align-items-md-start">
         {projects.map((project) => (
-          <div className="card col-10 col-md-5 mt-4 mx-1" key={project.id}> 
+          <div className="card col-10 col-xl-5 mt-4 mx-1" key={project.id}> 
             <img className="card-img-top border" src={project.img} alt="App Screenshot"></img>
             
             <div className="card-body d-flex flex-column justify-content-between">
